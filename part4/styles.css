@@ -1,0 +1,197 @@
+/*
+This is a SAMPLE File to get you started. Follow the instructions on the project to complete the tasks.
+You'll probably need to override some of these styles.
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-button {
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+}
+
+#filter {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#filter h1 {
+    margin-bottom: 15px;
+}
+
+#price-filter {
+    padding: 5px;
+}
+
+#places-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.place-card {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 300px;
+    text-align: center;
+}
+
+.place-card h2,
+.place-card p {
+    margin-bottom: 10px;
+}
+
+.details-button {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-form .login-button {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.place-details {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.place-info {
+    margin-top: 10px;
+}
+
+.reviews {
+    margin: 20px;
+}
+
+.reviews h2 {
+    margin-bottom: 10px;
+}
+
+.review-card {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.add-review {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.add-review h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.add-review p {
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    margin-bottom: 5px;
+}
+
+.form textarea,
+.form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form button {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}

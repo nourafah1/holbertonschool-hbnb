@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBnB - Places</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icon.png">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="HBnB Logo" class="logo">
+            </a>
+
+            <a href="login.html" class="login-button" id="login-link">
+                Login
+            </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="filter">
+            <h1>Available Places</h1>
+
+            <label for="price-filter">Max Price:</label>
+
+            <select id="price-filter">
+                <option value="all">All</option>
+                <option value="10">$10</option>
+                <option value="50">$50</option>
+                <option value="100">$100</option>
+            </select>
+        </section>
+
+        <div id="places-list">
+
+            <article class="place-card">
+                <h2>Cozy Apartment</h2>
+                <p>Price per night: $80</p>
+
+                <a href="place.html" class="details-button">
+                    View Details
+                </a>
+            </article>
+
+            <article class="place-card">
+                <h2>Beach House</h2>
+                <p>Price per night: $120</p>
+
+                <a href="place.html" class="details-button">
+                    View Details
+                </a>
+            </article>
+
+            <article class="place-card">
+                <h2>Modern Studio</h2>
+                <p>Price per night: $60</p>
+
+                <a href="place.html" class="details-button">
+                    View Details
+                </a>
+            </article>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 HBnB. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
